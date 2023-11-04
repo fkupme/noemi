@@ -1338,13 +1338,9 @@ button {
 	}
 
 	.post-description {
-		line-height: 1.4;
 		margin-top: 0;
-		letter-spacing: 0.2px;
 		margin-bottom: 0;
 		font-size: 15px;
-		overflow: hidden;
-		max-height: 75px;
 	}
 
 	/*---------SIDE-BAR---------*/
@@ -1691,7 +1687,7 @@ button {
 	.posts-wrapper {
 		display: flex;
 		flex-direction: column;
-		gap: 62px;
+		gap: 89px;
 	}
 
 	.post-container {
@@ -1712,6 +1708,7 @@ button {
 	.post-list {
 		width: var(--post-image-container-width-desktop);
 		margin: 0;
+		padding-bottom: 0;
 	}
 
 	.post-category {
@@ -1734,7 +1731,6 @@ button {
 	.post-description {
 		margin-bottom: 0;
 		font-size: clamp(15px, 0.78vw , 17px);
-		max-height: 75px;
 	}
 
 	/*---------SIDE-BAR---------*/
