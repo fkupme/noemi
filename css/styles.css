@@ -1204,7 +1204,7 @@ h6 {
 	.popup-container {
 		width: 393px;
 		padding: 50px 28px 52px 32px;
-		top: 100px;
+		top: 24vh;
 	}
 
 	.close {
@@ -1570,7 +1570,7 @@ h6 {
 
 	.popup-container {
 		padding: 47px 34px 51px 32px;
-		top: 140px;
+		top: 18.5vh;
 	}
 
 	.close {
