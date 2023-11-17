@@ -123,9 +123,9 @@ h6 {
 
 .close {
 	position: absolute;
-    right: -1px;
-    top: -37px;
-    cursor: pointer;
+	right: -1px;
+	top: -37px;
+	cursor: pointer;
 }
 
 .cls-btn {
@@ -133,6 +133,7 @@ h6 {
 	width: 25px;
 	height: 25px;
 	background-image: url('../svg/form-x.svg');
+	background-repeat: no-repeat;
 }
 
 
@@ -1203,7 +1204,7 @@ h6 {
 	.popup-container {
 		width: 393px;
 		padding: 50px 28px 52px 32px;
-		top: 223px;
+		top: 100px;
 	}
 
 	.close {
@@ -1569,7 +1570,7 @@ h6 {
 
 	.popup-container {
 		padding: 47px 34px 51px 32px;
-		top: 244px;
+		top: 140px;
 	}
 
 	.close {
@@ -1592,7 +1593,7 @@ h6 {
 		gap: 37px;
 	}
 
-	.text-box{
+	.text-box {
 		margin-bottom: 21px;
 	}
 
@@ -1601,11 +1602,12 @@ h6 {
 		margin-bottom: 28px;
 	}
 
-	.checkbox-label_yes::after{
+	.checkbox-label_yes::after {
 		width: 19px;
-    	height: 19px;
+		height: 19px;
 	}
-	.checkbox-label_no::after{
+
+	.checkbox-label_no::after {
 		width: 19px;
 		height: 19px;
 	}
@@ -1878,7 +1880,7 @@ h6 {
 
 	.shop-item__text {
 		top: -36px;
-		
+
 	}
 
 
