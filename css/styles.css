@@ -101,24 +101,23 @@ h6 {
 
 /*----------------POPUP----------------*/
 .popup {
-	display: none;
+	display: flex;
 	justify-content: center;
-	align-items: center;
-	position: absolute;
-	width: 100%;
-	min-height: var(--popup-height-mobile);
-	z-index: 9;
-	background-color: rgba(0, 0, 0, 0.6);
+   	align-items: center;
+   	position: fixed;
+    	inset: 0;
+    	width: 100%;
+    	z-index: 9;
+    	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .popup-container {
-	position: fixed;
-	top: 57px;
-	box-sizing: border-box;
-	width: var(--popup-width-mobile);
-	z-index: 10;
-	background-color: #fff;
-	padding: 24px 25px 27px 25px;
+	position: relative;
+    	box-sizing: border-box;
+    	width: var(--popup-width-mobile);
+    	z-index: 10;
+    	background-color: #fff;
+    	padding: 24px 25px 27px 25px;
 }
 
 .close {
@@ -1196,15 +1195,10 @@ h6 {
 /* --------------------------MEDIA-TABLET-------------------------- */
 
 @media (min-width: 640px) {
-	.popup {
-		min-height: var(--popup-height-tablet);
-
-	}
 
 	.popup-container {
 		width: 393px;
 		padding: 50px 28px 52px 32px;
-		top: 24vh;
 	}
 
 	.close {
@@ -1563,14 +1557,9 @@ h6 {
 
 
 @media (min-width: 1200px) {
-	.popup {
-		min-height: var(--popup-height-desktop);
-
-	}
 
 	.popup-container {
 		padding: 47px 34px 51px 32px;
-		top: 18.5vh;
 	}
 
 	.close {
