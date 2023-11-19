@@ -63,7 +63,7 @@
 	<header class="header">
 		<div class="container">
 			<div class="header-wrapper">
-				
+
 				<div class="logo">
 					<a href="#" class="logo-link">
 						<img src="../noemi/svg/noemi-logo.svg" alt="" class="logo-img">
@@ -72,13 +72,13 @@
 				<div class="burger">
 					<label for="burger-button" class="burger-label">
 
-						<button type="submit" title="burger-button" id="burger-button" name="burger-button"
-							class="burger-button">
+						<button id="burger-button" type="submit" title="burger-button" id="burger-button"
+							name="burger-button" class="burger-button">
 							<span class="visually-hidden">показать меню</span>
 						</button>
 					</label>
 				</div>
-				<nav class="menu">
+				<nav id="menu" class="menu">
 					<ul class="menu-list">
 						<li class="menu-list__item">
 							<a href="#" class="menu-list__link">главная</a>
@@ -100,6 +100,8 @@
 						</li>
 
 					</ul>
+					<button type="button" id="close-menu" class="close-menu"><span class="visually-hidden">скрыть
+							меню</span></button>
 				</nav>
 			</div>
 			<div class="header-title">
@@ -108,7 +110,8 @@
 		</div>
 	</header>
 	<main class="main">
-		<button id="open-popup" type="button" class="feedback-btn"><span class="visually-hidden">Открыть форму обратной связи</span></button>
+		<button id="open-popup" type="button" class="feedback-btn"><span class="visually-hidden">Открыть форму обратной
+				связи</span></button>
 		<section class="trends">
 			<h3 class="trends-title"><a class="trends-title__link" href="#">Сейчас в тренде</a></h3>
 			<ul class="trends-list">
@@ -322,7 +325,7 @@
 								разобьёте
 								свою
 								палатку?
-								
+
 								<span>Мы составили список лучших летних фестивалей по всему миру.</span>
 							</p>
 
