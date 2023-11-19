@@ -13,3 +13,16 @@ closePopup.addEventListener('click', () => {
 	popupContainer.classList.remove('open')
 	openPopup.classList.remove('hidden')
 })
+const openMenu = document.getElementById('burger-button')
+const closeMenu = document.getElementById('close-menu')
+const menu = document.getElementById('menu')
+
+openMenu.addEventListener('click', () =>{
+	menu.classList.add('open_menu')
+	openMenu.classList.add('hidden')
+})
+
+closeMenu.addEventListener('click', () =>{
+	menu.classList.remove('open_menu')
+	openMenu.classList.remove('hidden')
+})
