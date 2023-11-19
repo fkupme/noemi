@@ -418,6 +418,10 @@ h6 {
 	cursor: pointer;
 	transition: .5s ease-in;
 }
+.burger-button:hover {
+	width: 40px;
+	height: 40px;
+}
 
 .menu {
 	visibility: hidden;
@@ -447,6 +451,27 @@ h6 {
 	color: #fff;
 	text-transform: uppercase;
 }
+.menu-list__link::before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 2px;
+	background-color: #F5FFF5;
+	top: 40px;
+	left: 0;
+	opacity: 0;
+	transition: 0.2s ease-in;
+}
+
+.menu-list__link:hover::before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 2px;
+	transform: translateY(-20px);
+	opacity: 1;
+	transition: 0.2s ease-in;
+}
 .close-menu{
 	background-image: url('../svg/arrow-up-svgrepo-com.svg');
 	fill: #BDBDBD;
@@ -455,12 +480,15 @@ h6 {
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 40px;
-	height: 55px;
+	height: 40px;
 	display: block;
 	margin: 10px;
 	padding: 10px;
 	transition: 0.5s ease-in;
 	cursor: pointer;
+}
+.close-menu:hover{
+	transform: translateY(-5px) scale(1.2);
 }
 
 .header-title {
