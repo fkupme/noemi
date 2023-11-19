@@ -78,27 +78,28 @@ button {
 
 /*----------------POPUP----------------*/
 .popup {
-	display: none;
-	margin: auto;
+/* 	добавить класс .open */
+	visibility:hidden;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: absolute;
 	width: 100%;
 	min-height: var(--popup-height-mobile);
 	z-index: 9;
 	background-color: rgba(0, 0, 0, 0.6);
+	transition: 0.3s ease-in;
 }
 
 .popup-container {
-	position: relative;
+	position: fixed;
+	top: 57px;
 	box-sizing: border-box;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 27px;
-	left: -2px;
-	top: 29px;
 	width: var(--popup-width-mobile);
 	z-index: 10;
 	background-color: #fff;
-	padding: 9px 25px 27px 25px;
+	padding: 24px 25px 27px 25px;
 }
 
 .close {
@@ -1844,4 +1845,10 @@ button {
 
 
 
+}
+
+.open{
+	transition: 0.3s ease-in;
+	visibility: visible;
+	opacity: 1;
 }
