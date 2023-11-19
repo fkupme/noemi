@@ -197,6 +197,7 @@ h6 {
 	background-position: 95% center;
 	-webkit-appearance: none;
 	-moz-appearance: none;
+	cursor: pointer;
 }
 
 .arrows {
@@ -226,7 +227,7 @@ h6 {
 .checkbox-label {
 	display: block;
 	font-size: 13px;
-
+	cursor: pointer;
 }
 
 .checkbox-label_yes {
@@ -246,6 +247,7 @@ h6 {
 	background-position: center center;
 	z-index: 11;
 	transition: 0.5s ease-in;
+	cursor: pointer;
 }
 
 .radio_yes:checked~.checkbox-label_yes::after {
@@ -272,6 +274,7 @@ h6 {
 	background-position: center center;
 	z-index: 11;
 	transition: 0.5s ease-in;
+	cursor: pointer;
 }
 
 .radio_no:checked~.checkbox-label_no::after {
@@ -325,6 +328,7 @@ h6 {
 	font-weight: bold;
 	color: #fff;
 	transition: 0.2s ease-in;
+	cursor: pointer;
 }
 
 .button-submit:hover {
@@ -415,6 +419,7 @@ h6 {
 	background-position: center center;
 	width: 32px;
 	height: 32px;
+	cursor: pointer;
 }
 
 .menu {
@@ -847,6 +852,7 @@ h6 {
 	background-repeat: no-repeat;
 	background-position: center center;
 	transition: 0.2s ease-in;
+	cursor: pointer;
 }
 
 .search-button:hover {
@@ -912,6 +918,7 @@ h6 {
 	font-weight: bold;
 	color: #fff;
 	transition: 0.2s ease-in;
+	cursor: pointer;
 }
 
 .subscribe__button:hover {
